@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-decoration: none;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+div#wrap {
+  margin: 0 auto;
+}
+
+a:link {
+  color: #555;
+}
+
+a:visited {
+  color: #555;
+}
+
+a:hover {
+  color: #666;
+}
+
+a:active {
+  color: #666;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.flexContainer {
+  display: flex;
+
+  -webkit-flex: 1px;
+  -moz-flex: 1px;
+  -ms-flex: 1px;
+  -o-flex: 1px;
+  flex: 1px;
+}
