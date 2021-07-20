@@ -164,6 +164,8 @@ div#slide .slideContnets a img {
   text-align: center;
   border: 1px solid #aaa;
   background-color: #fff;
+  cursor: pointer;
+
   position: relative;
   top: 1px;
   left: 16px;
@@ -192,7 +194,7 @@ div#slide .slideContnets a img {
   padding-right: 6px;
 }
 
-#contents #article #notice > table > tbody > tr > td#noticePopup {
+tr#popupPoint {
   cursor: pointer;
 }
 
@@ -210,7 +212,9 @@ div#slide .slideContnets a img {
 #contents #article #galleryImg {
   justify-content: space-between;
 }
-
+#contents #banner {
+  text-align: center;
+}
 #contents #banner > a > img {
   width: 380px;
   height: 200px;
@@ -220,6 +224,7 @@ div#slide .slideContnets a img {
 #contents #barogagi {
   height: 200px;
   padding: 10px;
+  text-align: center;
 }
 
 #contents #barogagi img {
@@ -275,23 +280,21 @@ footer#footer #sns a {
 div#popupArea {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(255, 255, 255, 0);
 
   position: fixed;
   top: 0;
   left: 0;
   z-index: 10;
-  overflow: auto;
-
-  /*display: none;*/
+  display: none;
 }
 
 #layerPopup {
   width: 600px;
-  height: 380px;
-  padding: 40px;
+  height: 360px;
+  padding: 30px 40px 16px;
   margin: 0 auto;
-  border: 4px solid #eee;
+  border: 4px solid #aaa;
   border-radius: 20px;
   background-color: #fff;
 
@@ -310,7 +313,7 @@ div#popupArea {
 
 #layerPopup p {
   font-size: 20px;
-  line-height: 40px;
+  line-height: 1.9em;
 
   padding-top: 30px;
 }
@@ -320,6 +323,7 @@ div#popupArea {
   padding: 4px 10px;
   border: 2px solid #aaa;
   border-radius: 10px;
+  cursor: pointer;
 
   position: absolute;
   left: 500px;
