@@ -11,8 +11,8 @@
   box-sizing: border-box;
 }
 
-body{
-    background-color: #fff;
+body {
+  background-color: #fff;
 }
 
 div#wrap {
@@ -52,3 +52,13 @@ img {
   -o-flex: 1px;
   flex: 1px;
 }
+
+header,
+nav,
+main,
+footer,
+article,
+slide {
+  display: block;
+}
+/* 구버전에서 동일한 결과 출력용 소스 */
